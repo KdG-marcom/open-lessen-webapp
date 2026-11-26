@@ -1,0 +1,199 @@
+{
+ "bijgewerkt": "2026-11-24T14:14:17.000Z",
+ "opleidingen": [
+  {
+   "id": "accountancyfiscaliteit",
+   "naam": "Accountancy-Fiscaliteit",
+   "pad": "/accountancy-fiscaliteit"
+  },
+  {
+   "id": "applied-computer-science",
+   "naam": "Applied Computer Science",
+   "pad": "/en/applied-computer-science"
+  },
+  {
+   "id": "autotechnologie",
+   "naam": "Autotechnologie",
+   "pad": "/autotechnologie"
+  },
+  {
+   "id": "beeldende-kunsten",
+   "naam": "Beeldende Kunsten",
+   "pad": "/academische-bachelor-beeldende-kunsten"
+  },
+  {
+   "id": "biomedische-laboratoriumtechnologie",
+   "naam": "Biomedische Laboratoriumtechnologie",
+   "pad": "/biomedische-laboratoriumtechnologie"
+  },
+  {
+   "id": "business-languages",
+   "naam": "Business & Languages",
+   "pad": "/business-languages"
+  },
+  {
+   "id": "chemie",
+   "naam": "Chemie",
+   "pad": "/bachelor-chemie"
+  },
+  {
+   "id": "cross-media-management",
+   "naam": "Cross Media Management",
+   "pad": "/bachelor-cross-media-management"
+  },
+  {
+   "id": "event-project-management",
+   "naam": "Event & Project Management",
+   "pad": "/bachelor-event-projectmanagement"
+  },
+  {
+   "id": "financin-en-verzekeringen",
+   "naam": "Financiën en Verzekeringen",
+   "pad": "/financie-en-verzekeringswezen"
+  },
+  {
+   "id": "fotografie",
+   "naam": "Fotografie",
+   "pad": "/fotografie"
+  },
+  {
+   "id": "human-resources-management",
+   "naam": "Human Resources Management",
+   "pad": "/opleidingen/bachelor-en-graduaatsopleidingen/human-resources-management"
+  },
+  {
+   "id": "international-business-management",
+   "naam": "International Business Management",
+   "pad": "/en/international-business-management"
+  },
+  {
+   "id": "internationaal-ondernemen",
+   "naam": "Internationaal Ondernemen",
+   "pad": "/internationaal-ondernemen"
+  },
+  {
+   "id": "internet-of-things",
+   "naam": "Internet of Things",
+   "pad": "/internet-of-things"
+  },
+  {
+   "id": "kmomanagement",
+   "naam": "KMO-Management",
+   "pad": "/kmo-management"
+  },
+  {
+   "id": "leraar-kleuteronderwijs",
+   "naam": "Leraar Kleuteronderwijs",
+   "pad": "/leraar-kleuteronderwijs"
+  },
+  {
+   "id": "leraar-lager-onderwijs",
+   "naam": "Leraar Lager Onderwijs",
+   "pad": "/leraar-lager-onderwijs"
+  },
+  {
+   "id": "leraar-secundair-onderwijs",
+   "naam": "Leraar Secundair Onderwijs",
+   "pad": "/leraar-secundair-onderwijs"
+  },
+  {
+   "id": "maatschappelijk-werk",
+   "naam": "Maatschappelijk Werk",
+   "pad": "/maatschappelijk-werk-graduaat"
+  },
+  {
+   "id": "marketing",
+   "naam": "Marketing",
+   "pad": "/marketing"
+  },
+  {
+   "id": "medische-beeldvorming-en-radiotherapie",
+   "naam": "Medische Beeldvorming en Radiotherapie",
+   "pad": "/opleidingen/bachelor-en-graduaatsopleidingen/medische-beeldvorming-en-radiotherapie"
+  },
+  {
+   "id": "multimedia-creative-technologies",
+   "naam": "Multimedia & Creative Technologies",
+   "pad": "/en/bachelor-multimedia-creative-technologies"
+  },
+  {
+   "id": "multimedia-en-creatieve-technologie",
+   "naam": "Multimedia en Creatieve Technologie",
+   "pad": "/multimedia-creative-technologies"
+  },
+  {
+   "id": "nursing",
+   "naam": "Nursing",
+   "pad": "/en/nursing"
+  },
+  {
+   "id": "orthopedagogie",
+   "naam": "Orthopedagogie",
+   "pad": "/bachelor-orthopedagogie"
+  },
+  {
+   "id": "pedagogie-van-het-jonge-kind",
+   "naam": "Pedagogie van het Jonge Kind",
+   "pad": "/pedagogie-van-het-jonge-kind"
+  },
+  {
+   "id": "rechtspraktijk",
+   "naam": "Rechtspraktijk",
+   "pad": "/rechtspraktijk"
+  },
+  {
+   "id": "sociaal-werk",
+   "naam": "Sociaal Werk",
+   "pad": "/sociaal-werk"
+  },
+  {
+   "id": "supply-chain-management",
+   "naam": "Supply Chain Management",
+   "pad": "/supply-chain-management"
+  },
+  {
+   "id": "toegepaste-informatica",
+   "naam": "Toegepaste Informatica",
+   "pad": "/toegepaste-informatica"
+  },
+  {
+   "id": "verpleegkunde",
+   "naam": "Verpleegkunde",
+   "pad": "/verpleegkunde"
+  },
+  {
+   "id": "voertuigtechnieken",
+   "naam": "Voertuigtechnieken",
+   "pad": "/voertuigtechnieken"
+  },
+  {
+   "id": "vroedkunde",
+   "naam": "Vroedkunde",
+   "pad": "/vroedkunde"
+  }
+ ],
+ "lessen": [
+  {
+   "opl": [
+    "orthopedagogie"
+   ],
+   "vak": "Begeleiden van jongeren met een beperking",
+   "start": "2027-03-25T12:00:00.000Z",
+   "einde": "2027-03-25T13:00:00.000Z",
+   "locatie": "Campus Zuid",
+   "campus": "Campus Zuid",
+   "url": "https://www.kdg.be/opleidingen/infomomenten/volg-een-les"
+  },
+  {
+   "opl": [
+    "leraar-kleuteronderwijs"
+   ],
+   "vak": "Leren door spel",
+   "start": "2027-03-26T09:00:00.000Z",
+   "einde": "2027-03-26T11:00:00.000Z",
+   "locatie": "Campus Zuid",
+   "campus": "Campus Zuid",
+   "url": "https://www.kdg.be/opleidingen/infomomenten/volg-een-les"
+  }
+ ]
+}

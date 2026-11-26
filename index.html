@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open lessen KdG prototype</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style>
+/* Alleen voor de testbalk. De widget zelf heeft geen eigen CSS. */
+:root { color-scheme: light; }
+body { background: #fff; color: #000; }
+.proto { background: #000; color: #fff; padding: 10px 0; margin-bottom: 24px; font-size: 13px; }
+.proto label { font-weight: normal; margin: 0 16px 6px 0; }
+.proto select { color: #000; max-width: 100%; }
+.proto p { margin: 4px 0 0; opacity: .85; }
+</style>
+</head>
+<body>
+<div class="proto" role="region" aria-label="Testinstellingen"><div class="container">
+  <strong>Testpagina</strong>&nbsp;
+  <label for="p-pagina">Pagina <select id="p-pagina"><option value="/opleidingen/infomomenten/volg-een-les">Overzichtspagina (alle lessen)</option><option value="/accountancy-fiscaliteit">Opleidingspagina: Accountancy-Fiscaliteit</option><option value="/en/applied-computer-science">Opleidingspagina: Applied Computer Science</option><option value="/autotechnologie">Opleidingspagina: Autotechnologie</option><option value="/academische-bachelor-beeldende-kunsten">Opleidingspagina: Beeldende Kunsten</option><option value="/biomedische-laboratoriumtechnologie">Opleidingspagina: Biomedische Laboratoriumtechnologie</option><option value="/business-languages">Opleidingspagina: Business &amp; Languages</option><option value="/bachelor-chemie">Opleidingspagina: Chemie</option><option value="/bachelor-cross-media-management">Opleidingspagina: Cross Media Management</option><option value="/bachelor-event-projectmanagement">Opleidingspagina: Event &amp; Project Management</option><option value="/financie-en-verzekeringswezen">Opleidingspagina: Financiën en Verzekeringen</option><option value="/fotografie">Opleidingspagina: Fotografie</option><option value="/opleidingen/bachelor-en-graduaatsopleidingen/human-resources-management">Opleidingspagina: Human Resources Management</option><option value="/en/international-business-management">Opleidingspagina: International Business Management</option><option value="/internationaal-ondernemen">Opleidingspagina: Internationaal Ondernemen</option><option value="/internet-of-things">Opleidingspagina: Internet of Things</option><option value="/kmo-management">Opleidingspagina: KMO-Management</option><option value="/leraar-kleuteronderwijs">Opleidingspagina: Leraar Kleuteronderwijs</option><option value="/leraar-lager-onderwijs">Opleidingspagina: Leraar Lager Onderwijs</option><option value="/leraar-secundair-onderwijs">Opleidingspagina: Leraar Secundair Onderwijs</option><option value="/maatschappelijk-werk-graduaat">Opleidingspagina: Maatschappelijk Werk</option><option value="/marketing">Opleidingspagina: Marketing</option><option value="/opleidingen/bachelor-en-graduaatsopleidingen/medische-beeldvorming-en-radiotherapie">Opleidingspagina: Medische Beeldvorming en Radiotherapie</option><option value="/en/bachelor-multimedia-creative-technologies">Opleidingspagina: Multimedia &amp; Creative Technologies</option><option value="/multimedia-creative-technologies">Opleidingspagina: Multimedia en Creatieve Technologie</option><option value="/en/nursing">Opleidingspagina: Nursing</option><option value="/bachelor-orthopedagogie">Opleidingspagina: Orthopedagogie</option><option value="/pedagogie-van-het-jonge-kind">Opleidingspagina: Pedagogie van het Jonge Kind</option><option value="/rechtspraktijk">Opleidingspagina: Rechtspraktijk</option><option value="/sociaal-werk">Opleidingspagina: Sociaal Werk</option><option value="/supply-chain-management">Opleidingspagina: Supply Chain Management</option><option value="/toegepaste-informatica">Opleidingspagina: Toegepaste Informatica</option><option value="/verpleegkunde">Opleidingspagina: Verpleegkunde</option><option value="/voertuigtechnieken">Opleidingspagina: Voertuigtechnieken</option><option value="/vroedkunde">Opleidingspagina: Vroedkunde</option></select></label>
+  <label for="p-bron">Data <select id="p-bron"><option value="demo-data.json">Demo: alle lessen, opgeschoven naar de toekomst</option><option value="data.json">Echt: data.json zoals op de site</option></select></label>
+  <p>Opmaak hier is standaard Bootstrap 3 als benadering; op kdg.be neemt de widget de stijl van de site over. In de demo leiden de inschrijflinks naar de pagina op kdg.be, niet naar een formulier.</p>
+</div></div>
+<div class="container">
+  <h1 class="page-header" id="p-titel">Volg een les (open lessen)</h1>
+  <div id="kdg-open-lessen-root" data-pagina="/opleidingen/infomomenten/volg-een-les" data-bron="demo-data.json"></div>
+</div>
+<script src="widget.js" defer></script>
+<script>
+(function () {
+  var root = document.getElementById("kdg-open-lessen-root"), p = document.getElementById("p-pagina"), b = document.getElementById("p-bron");
+  function zet() {
+    root.setAttribute("data-pagina", p.value); root.setAttribute("data-bron", b.value);
+    document.getElementById("p-titel").textContent = p.selectedIndex ? "Volg een les" : "Volg een les (open lessen)";
+    if (window.kdgOpenLessen) window.kdgOpenLessen();
+  }
+  p.addEventListener("change", zet); b.addEventListener("change", zet);
+})();
+</script>
+</body>
+</html>

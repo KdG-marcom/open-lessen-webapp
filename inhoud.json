@@ -1,0 +1,30 @@
+{
+  "overzichtPad": "/opleidingen/infomomenten/volg-een-les",
+  "wachtlijstWebhook": "",
+  "wachtlijstFormulier": "",
+  "klassen": {
+    "knop": "btn btn-primary",
+    "tabel": "table",
+    "tabelWrap": "table-responsive",
+    "veld": "form-control",
+    "groep": "form-group",
+    "rij": "row",
+    "kolomBreed": "col-sm-8",
+    "kolomSmal": "col-sm-4",
+    "kolomHelft": "col-sm-6",
+    "vink": "checkbox",
+    "kader": "well",
+    "fout": "alert alert-danger",
+    "ok": "alert alert-success",
+    "link": "chevron-after",
+    "linkIcoon": "icon icon-chevron"
+  },
+  "tekst": {
+    "inschrijven": "Schrijf je in",
+    "geenLessen": "Er zijn nu geen lessen gepland",
+    "geenResultaat": "Geen les gevonden die bij je past",
+    "wachtlijstIntro": "Laat je gegevens achter. We mailen je zodra er een les gepland is.",
+    "gdpr": "Ik ga akkoord dat KdG mijn gegevens gebruikt om me te verwittigen over open lessen.",
+    "marketing": "Hou me ook op de hoogte van infodagen en ander studiekeuzenieuws van KdG."
+  }
+}
